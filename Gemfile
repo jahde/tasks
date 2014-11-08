@@ -33,7 +33,7 @@ group :doc do
 end
 
 group :test, :development do
-  gem 'turn'
+  gem 'turn', '< 0.8.3'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'guard-rspec'
